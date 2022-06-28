@@ -13,31 +13,31 @@ Currently one working program:
   
   Example input: cat
   
-  outfile will contain:
+  outfile will contain:  
 (@+  
-(@t
-(a+
-(at
-c@+
-c@t
-ca+
-cat
-(@T
-(A+
-(AT
-(At
-(aT
-C@+
-C@T
-C@t
-c@T
-CA+
-Ca+
-cA+
-CAT
-CAt
-CaT
-Cat
-cAT
-cAt
-caT
+(@t  
+(a+  
+(at  
+c@+  
+c@t  
+ca+  
+cat  
+(@T  
+(A+  
+(AT  
+(At  
+(aT  
+C@+  
+C@T  
+C@t  
+c@T  
+CA+  
+Ca+  
+cA+  
+CAT  
+CAt  
+CaT  
+Cat  
+cAT  
+cAt  
+caT  
