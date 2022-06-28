@@ -2,13 +2,19 @@
 Keywork password list generator
 
 Generates a password list that can be used for password cracking based on a keyword.
+
 Usage: Run program in Python.
+
 example: python3 combinationreplacer.py
+
 Currently one working program:
+
   combinationreplacer.py takes a word as an argument (example:cat) replaces the letters with common replacements, capitilizes/lowercases the letters, and outs those    results to a file.
+  
   Example input: cat
+  
   outfile will contain:
-(@+
+(@+  
 (@t
 (a+
 (at
