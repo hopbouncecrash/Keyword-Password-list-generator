@@ -3,7 +3,7 @@ Keywork password list generator
 
 Generates a password list that can be used for password cracking based on a keyword.
 
-Feedback is welcome, I plan to add header and footer functionality as well.
+Feedback is welcome, I plan to add header and footer functionality as well. Longer words will cause the program to run exponentially longer.
 
 Usage: Run program in Python.
 
