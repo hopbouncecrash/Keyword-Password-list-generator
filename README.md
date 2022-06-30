@@ -1,5 +1,5 @@
 # Keyword-Password-list-generator
-Keywork password list generator
+Keywork password list generator using Itertools
 
 Generates a password list that can be used for password cracking based on a keyword.
 
