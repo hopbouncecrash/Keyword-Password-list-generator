@@ -10,7 +10,9 @@ Usage: Run program in Python.
 example: python3 combinationreplacer.py
 
   combinationreplacer.py takes a word as an argument (example:cat) replaces the letters with common replacements, capitilizes/lowercases the letters, iterates through all combinations, and outs those results to a file.
+  
   prefixadder.py will take a list of prefixes and attach all the prefixes to a list of words, and outputs them to a file.
+  
   suffixadder.py will take a list of suffixes and attach all the suffixes to a list of words, and outputs them to a file.
   
   Combination replacer example:
