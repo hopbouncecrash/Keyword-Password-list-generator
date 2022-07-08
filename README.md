@@ -3,23 +3,31 @@ Keywork password list generator using Itertools
 
 Generates a password list that can be used for password cracking based on a keyword.
 
-combinationreplacer.py will 
+passwordgenerator.py will 
 
 Usage: Run program in Python.
 
-example: python3 combinationreplacer.py
+example: python3 passwordgenerator.py
 
-  combinationreplacer.py takes a word as an argument (example:cat) replaces the letters with common replacements, capitilizes/lowercases the letters, iterates through all combinations, and outs those results to a file.
+  passwordgenerator.py has 3 modes, the main password generator module, a prefix adder, and a suffix adder.
   
-  prefixadder.py will take a list of prefixes and attach all the prefixes to a list of words, and outputs them to a file.
+  Password generator will take a list of words formatted like common wordlists:
+  For example, example.txt will be formatted as a text file like so:
+  cat
+  who
+  Steve
   
-  suffixadder.py will take a list of suffixes and attach all the suffixes to a list of words, and outputs them to a file.
+  and will generator passwords based on those words. Useful to generate an intelligent password cracking list.
+  You can specify how many words can be strung together.  It will also do common replacements for letters, such as @ for a and + for t.
   
-  Combination replacer example:
+  Prefix adder will add common prefixes that come before passwords to a wordlist.
+  Suffix adder will add common suffixes that come after passwords to a wordlist.
+  
+  password generator example:
   
   Example input: cat
   
-  outfile will contain:  
+Output file will contain:  
 (@+  
 (@t  
 (a+  
